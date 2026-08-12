@@ -16,7 +16,7 @@ raw_members = [
 def main():
 
     members, error_count = process_raw_members(raw_members)
-    print("\n--- Functional Programming Demo ---")
+     
     example_members = filter_members_by_domain(members, "example.com")
     print(f"Members with @example.com email: {get_all_names(example_members)}")
 
