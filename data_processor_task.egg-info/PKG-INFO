@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: data_processor_task
+Version: 1.0.0
+Summary: A core Python training assignment project
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# My Processor Package
+
+This is a modular core concepts assignment utility.
+
+## Installation
+```bash
+pip install dist/my_processor-0.1.0-py3-none-any.whl
+```
+
+## Usage
+```python
+from my_processor import Processor
+
+proc = Processor("Text Cleaner")
+result = proc.process_batch(["Hello @World!", "Python3 ##"])
+print(result) # Output: ['Hello World', 'Python3 ']
+```
